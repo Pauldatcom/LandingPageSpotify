@@ -1,54 +1,71 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dis Spotify - Assistant Vocal</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+  <title>Dis Spotify - Votre Assistant Musical</title>
 </head>
-<body>
-    <header>
-        <h1>Dis Spotify</h1>
-        <p>Votre assistant musical intelligent</p>
-        <button class="cta">Essayez maintenant</button>
-    </header>
-    
-    <section class="features">
-        <h2>Fonctionnalités Clés</h2>
-        <div class="feature">
-            <h3>Contrôle Vocal</h3>
-            <p>Utilisez votre voix pour gérer votre musique sans effort.</p>
-        </div>
-        <div class="feature">
-            <h3>Recommandations Personnalisées</h3>
-            <p>Recevez des suggestions musicales basées sur vos préférences.</p>
-        </div>
-        <div class="feature">
-            <h3>Intégration Multi-Appareils</h3>
-            <p>Profitez de votre musique sur tous vos appareils connectés.</p>
-        </div>
-    </section>
-    
-    <section class="testimonials">
-        <h2>Ils ont essayé "Dis Spotify"</h2>
-        <blockquote>
-            <p>"Une expérience révolutionnaire ! Je ne peux plus m'en passer."</p>
-            <cite>— Alex, utilisateur satisfait</cite>
-        </blockquote>
-        <blockquote>
-            <p>"Le contrôle vocal rend l'écoute de musique tellement plus facile."</p>
-            <cite>— Marie, mélomane</cite>
-        </blockquote>
-    </section>
-    
-    <section class="cta-section">
-        <h2>Prêt à essayer "Dis Spotify" ?</h2>
-        <p>Activez dès maintenant et découvrez une nouvelle façon d'écouter votre musique.</p>
-        <button class="cta">Activez dès maintenant</button>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 Spotify. Tous droits réservés.</p>
-    </footer>
+<body class="container full-height-grow">
+  <header class="main-header">
+    <a href="/" class="brand-logo">
+      <img src="images/Spotify_logo_without_text.svg">
+      <div class="brand-logo-name">Spotify</div>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="discover.html">Découvrir Dis Spotify</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Une nouvelle façon de contrôler votre musique</h1>
+      <p class="hero-subtitle">"Dis Spotify" vous permet de piloter vos playlists, albums et morceaux préférés avec votre voix.</p>
+      <a href="discover.html" class="cta">Essayez Dis Spotify</a>
+    </div>
+    <div class="hero-image">
+      <img src="images/voice-assistant.png" alt="Illustration de Dis Spotify">
+    </div>
+  </section>
+  
+  <section class="features">
+    <h2>Pourquoi essayer Dis Spotify ?</h2>
+    <div class="features-grid">
+      <div class="feature-box">
+        <h3>🎶 Contrôle vocal</h3>
+        <p>Changez de musique sans toucher votre téléphone.</p>
+      </div>
+      <div class="feature-box">
+        <h3>📀 Playlists personnalisées</h3>
+        <p>Demandez simplement "Joue ma playlist Chill".</p>
+      </div>
+      <div class="feature-box">
+        <h3>🔊 Volume intelligent</h3>
+        <p>Ajustez le son avec "Monte le volume à 50%".</p>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="main-footer">
+    <div class="container">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#">À propos</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#" class="social-link"><img src="images/facebookicons.svg"></a></li>
+          <li><a href="#" class="social-link"><img src="images/instaicons.svg"></a></li>
+          <li><a href="#" class="social-link"><img src="images/xicon.svg"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
